@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的作品集</title>
+    <!-- 引入 Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- 引入 Font Awesome 用來顯示社交媒體圖示 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- 自訂 CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">我的作品集</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">首頁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">作品集</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">關於我</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">聯絡我</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 頭圖區塊 (Carousel) -->
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background: url('https://via.placeholder.com/1500x500') no-repeat center center;">
+          <div class="carousel-caption">
+            <h1 class="display-4 text-white">歡迎來到我的作品集 1</h1>
+            <p class="lead text-white">前端開發者與設計師</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="background: url('https://via.placeholder.com/1500x500/555') no-repeat center center;">
+          <div class="carousel-caption">
+            <h1 class="display-4 text-white">歡迎來到我的作品集 2</h1>
+            <p class="lead text-white">前端開發者與設計師</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="background: url('https://via.placeholder.com/1500x500/777') no-repeat center center;">
+          <div class="carousel-caption">
+            <h1 class="display-4 text-white">歡迎來到我的作品集 3</h1>
+            <p class="lead text-white">前端開發者與設計師</p>
+          </div>
+        </div>
+      </div>
+      <!-- 左右控制器 -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <!-- 頁面指示器 -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+    </div>
+  
+
+
+    <!-- 作品集區塊 -->
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">我的作品集</h2>
+            <div class="row">
+                <div class="col-md-4 portfolio-item mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://via.placeholder.com/400x300" alt="作品 1">
+                        <div class="card-body">
+                            <h5 class="card-title">剪刀石頭布</h5>
+                            <p class="card-text">這是關於剪刀石頭布的簡短描述。</p>
+                        </div>
+                        <div class="card-footer text-center ">
+                            <a href="https://nfu-test1.github.io/0918-11161124/" class="btn btn-primary my-2">查看更多</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://via.placeholder.com/400x300" alt="作品 2">
+                        <div class="card-body">
+                            <h5 class="card-title">記憶大考驗</h5>
+                            <p class="card-text">這是關於記憶大考驗的簡短描述。</p>
+                        </div>
+                        <div class="card-footer text-center ">
+                            <a href="https://nfu-test1.github.io/0918-11161124/" class="btn btn-primary my-2">查看更多</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://via.placeholder.com/400x300" alt="作品 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Google首頁</h5>
+                            <p class="card-text">這是關於Google首頁的簡短描述。</p>
+                        </div>
+                        <div class="card-footer text-center ">
+                            <a href="https://google.com" class="btn btn-primary my-2">查看更多</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁尾區塊 -->
+    <footer>
+        <div class="container text-center">
+            <p>聯絡資訊：<br> 電子郵件: example@example.com | 電話: 0123-456-789</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i
+                        class="fab fa-facebook"></i></a>
+                <a href="https://line.me" target="_blank" aria-label="Line"><i class="fab fa-line"></i></a>
+                <a href="https://www.instagram.com" target="_blank" aria-label="Instagram"><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+            <p class="mt-3">&copy; 2024 我的作品集. 保留所有權利。</p>
+        </div>
+    </footer>
+
+    <!-- 引入 Bootstrap 5.3 JavaScript 和 Font Awesome -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
